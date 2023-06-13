@@ -29,14 +29,24 @@ curl -sSL https://install.python-poetry.org | python - --git https://github.com/
 
 
 
-4. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
+
+4. **Make sure you are in Administrator/root while running the console board!** Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
 
 ```bash
 poetry install
 poetry shell
 ```
 
-5. Run the Streamlit server🚀
+5. Install some pip packages:
+
+```bash
+pip install docx2txt
+pip install --upgrade langchain
+pip install pypdf
+pip install streamlit --upgrade
+```
+
+6. Run the Streamlit server🚀
 
 ```bash
 cd knowledge_gpt
@@ -55,3 +65,4 @@ streamlit run main.py
 <br>
 
 [Online Official Demo](https://knowledgegpt.streamlit.app/)
+[Known Issues](https://blog.csdn.net/weixin_43894266/article/details/123315430)
