@@ -44,6 +44,7 @@ pip install docx2txt
 pip install --upgrade langchain
 pip install pypdf
 pip install streamlit --upgrade
+pip install openai
 ```
 
 6. Run the Streamlit server🚀
