@@ -25,8 +25,8 @@ def clear_submit():
     st.session_state["submit"] = False
 
 
-st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide") ## comment these 2 lines of codes if you encounter some problems related
-st.header("📖KnowledgeGPT")
+# st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide") ## comment these 2 lines of codes if you encounter some problems related
+# st.header("📖KnowledgeGPT")
 
 sidebar()
 
